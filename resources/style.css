@@ -1,0 +1,93 @@
+/* Table of Contents 
+---------------------------------------------------
+- General Content
+- Typography 
+- Header & Navigation 
+- Images & Media 
+- Footer
+- Media Queries
+--------------------------------------------------- */
+
+
+/* General Content 
+--------------------------------------------------- */
+
+.row {
+    padding: 2% 0;
+}
+
+
+/* Typography
+--------------------------------------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+
+/* Header & Navigation
+--------------------------------------------------- */
+
+.hero {
+    background-color: #000;
+}
+
+ul.top-nav {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+ul.top-nav li {
+    display: inline;
+    font-size: 1.2em;
+    padding: 0 2%;
+    margin-right: 4em;
+}
+
+ul.top-nav li:last-child {
+    margin-right: 0;
+}
+
+ul.top-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-text {
+    font-weight: 300;
+}
+
+.section-header {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* Images & Media
+--------------------------------------------------- */
+
+img {
+    max-width: 100%;
+}
+
+
+/* Footer
+--------------------------------------------------- */
+
+footer {
+    background-color: #000;
+}
+
+p.copyright {
+    text-align: center;
+}
+
+
+/* Media Queries
+--------------------------------------------------- */
